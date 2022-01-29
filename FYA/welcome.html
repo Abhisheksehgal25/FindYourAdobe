@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Find Your Abode</title>
+ <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<link rel="stylesheet" type="text/css" href="FYA.css">
+<style>
+* {box-sizing: border-box;}
+
+img{float:right;}
+body{ background-image: linear-gradient(to bottom, Maroon,GoldenRod);}
+</style>
+<body>
+<form class="form" action="ProjPg3.html">
+
+<div class="one" >
+BUY:&nbsp;<input type="radio" id="buy" name="buy" value="buy" required>
+&nbsp;&nbsp;
+RENT:  <input type="radio" id="ren" name="buy" value="ren">
+&nbsp;&nbsp;
+PG/Co-Living:  <input type="radio" id="pg" name="buy" value="pg">
+
+</div>
+<div class="two" align="center">
+<br><br><br><br><br><br><br><br>
+ <input type="checkbox" id="gy" name="cu">Gym<br>
+ <input type="checkbox" id="ch" name="cu">Club<br>
+ <input type="checkbox" id="gr" name="cu"> Garden<br>
+<input type="checkbox" id="ga" name="cu"> Garage <br>
+<input type="checkbox" id="sp" name="cu">Swimming pool<br>
+<input type="checkbox" id="sc" name="cu"> Shopping Complex nearby
+</div>
+<div class="three">
+<br><br><br>
+<h2>Interior Preferences</h2>
+Already furnished?: <input type="radio" id="apr" name="ip">&nbsp;&nbsp;&nbsp;&nbsp;
+Semi-furnishing: <input type="radio" id="apr" name="ip" ><br><br>
+
+Number of Balcony: <input type="number" id="ba" name="cu" class="dropdown" placeholder="  --Seclect--"  min="0" max="15">
+Number of Bedroom: <input type="number" id="ba" name="cu" class="dropdown" placeholder="  --Seclect--"  min="1" max="15"><br><br>
+
+Select Floor: <select  style="font-size:25px;" class="dropdown">
+ <option value="" disabled selected hidden>Choose a Floor</option>
+    <option value="0">Lower Floor</option>
+    <option value="1">Upper Floor</option>
+	<option value="2">Floor above 10th</option>
+	<option value="3">Any</option></select>
+<br>
+</div>
+<br>
+<div class="bor">
+
+<h2 align="center">Budget<br><br></h2>
+<div class="columns">
+  <ul class="price">
+    <li class="header">Buy</li>
+    <li class="grey"> <input type="radio" name="a">₹ 50 L - ₹ 80 L</li>
+    <li class="white"> <input type="radio" name="a">₹ 80 L - ₹ 1.2 Cr</li>
+    <li class="grey"> <input type="radio" name="a">₹ 1.2 Cr - ₹ 2 Cr</li>
+    <li class="white"> <input type="radio" name="a">₹ 2 Cr - ₹ 2.8 Cr</li>
+	<li class="grey"> <input type="radio" name="a">₹ 2.8 Cr - ₹ 4 Cr</li>
+	<li class="white"> <input type="radio" name="a">₹ 4 Cr And Above</li>
+    </ul>
+</div>
+
+<div class="columns">
+  <ul class="price">
+    <li class="header">Rent</li>
+    <li class="grey"> <input type="radio" name="a">₹ 10 K - ₹ 15 K /month</li>
+    <li  class="white"> <input type="radio" name="a">₹ 15 K - ₹ 25 K </li>
+    <li class="grey"> <input type="radio" name="a">₹ 25 K - ₹ 35 K </li>
+    <li  class="white"> <input type="radio" name="a">₹ 35 K - ₹ 45 K </li>
+	<li class="grey"> <input type="radio" name="a">₹ 45 K - ₹ 50 K</li>
+	<li class="white"> <input type="radio" name="a">₹ 50K And Above</li>
+  </ul>
+</div>
+
+<div class="columns">
+  <ul class="price">
+    <li class="header">PG (per bedroom)</li>
+    <li class="grey"><input type="radio" name="a">₹ 5 K - ₹ 8 K /month </li>
+    <li  class="white"><input type="radio" name="a">₹ 8 K - ₹ 15 K</li>
+    <li class="grey"><input type="radio" name="a">₹ 15 K - ₹ 22 K</li>
+    <li class="white"><input type="radio" name="a">₹ 22 K - ₹ 30 K</li>
+	<li class="grey"><input type="radio" name="a">₹ 30 K - ₹ 40 K</li>
+	<li class="white"><input type="radio" name="a">₹ 40K And Above</li>
+    </ul>
+</div>
+</div>
+
+<br><br><br><br><br><br><br>
+<br><br>
+     <input type="submit"  name="Submit" class="sub">&nbsp;&nbsp;
+	 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	 <input type="reset"  name="reset" class="sub">
+</form>
+</body>
+</html>

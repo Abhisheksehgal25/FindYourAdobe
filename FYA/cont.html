@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>House Hunt</title>
+<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<style>
+
+body{
+height=100%;
+background-image: url('cont2.jpeg');
+  background-repeat: no-repeat;
+background-color:#F5F5F5;
+  background-size:100% 100%;
+}
+.c1{
+padding-right:20px;
+text-align:right;
+margin:auto;
+}
+.rcorners2 {
+  border-radius: 25px;
+  border: 1px solid gray;
+
+  }
+  .grad {
+  background-image: linear-gradient(to right,darkblue,lightblue);
+ 
+}
+.sub:hover {
+  opacity: 0.9;
+}
+h1{
+font-size:50px;
+text-shadow: 2px 2px 2px white;
+}
+h2{
+font-size:35px;}
+</style>
+</head>
+<body>
+<script>
+  function check_Alpha(letters){
+    var regex = /^[a-zA-Z]+$/;
+    if(regex.test(letters.yourname.value) == false){
+   alert("Name cannot be empty and must be in alphabets only");
+   letters.yourname.focus();
+   return false;
+    }
+    return true;
+  }
+   
+</script>
+<br>
+<hr>
+<h1 align="left">CONTACT US</h1><br>
+
+<h2 style="text-align:right;text-shadow: 1px 1px 2px white;">HAVE SOME QUESTIONS?</h2>
+<div class="c1" align="right">
+<form  name="alphavalidate" action="FYA.html" method="post" onSubmit="return check_Alpha(this)">
+  
+  <input type="text" placeholder=" First Name" class="rcorners2" style="font-size:20px;" required name="yourname" />
+  <br><br>
+  
+  <input type="text" placeholder=" Last Name" class="rcorners2" style="font-size:20px;" />
+  <br><br>
+   
+  <input type="email" id="email" name="email" placeholder=" What's your email?" class="rcorners2" required style="font-size:20px;">
+<br><br>
+  <textarea id="subject" name="subject" placeholder="  Your Questions.." style="height:150px;width:400px" class="rcorners2" required></textarea><br><br>
+  <input type="submit" value=" Send Message" class="rcorners2 grad sub"  style="height:30px;width:250px;font-size:15px;" />
+  <h3 align="center">OR<br><br>WRITE TO US AT,<br><a href="#">service@findyourabode.com</a></h3>
+<hr><br>
+</form> 
+</div>
+</body>
+</html>

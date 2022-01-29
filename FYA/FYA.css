@@ -1,0 +1,304 @@
+
+
+
+
+body {
+  margin: 0;
+  height:100%;
+  }
+ 
+.fa {
+  padding: 10px;
+  font-size: 25px;
+  width: 25px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 1px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: gray;
+  color: white;
+}
+
+.fa-twitter {
+  
+  color:gray;
+}
+
+
+.fa-linkedin {
+
+  color:gray;
+}
+
+.fa-youtube {
+
+  color: gray;
+}
+
+.fa-instagram {
+
+  color:Silver;
+}
+
+.fa-pinterest {
+ 
+  color:Silver;
+}
+
+.fa-snapchat-ghost {
+  background:Silver;
+  color: white;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+.h{
+padding:0px;
+	font-size:50px;
+	margin-left: auto;
+margin-right: auto;
+margin-top: 0;
+font-family: "Arial Narrow"
+}
+.heading{
+background-color:white;
+color:MidnightBlue;}
+
+.content{
+background-image: url('pg3.jpg');
+background-repeat: no-repeat;
+background-size:cover ;
+background-position :50% 50%;
+height:600px;
+}
+.select{
+	
+	height: 250px;
+  width:30%;
+  background-color: black;
+margin-left:50px;
+opacity:0.8;
+  border-radius: 10px;
+	
+}
+.dropdown{
+width:200px;
+height:33px;
+}
+.sel{
+	opacity:1;
+	}
+.hh{
+	color:white;
+	font-size:50px;
+}
+.registerbtn {
+  background-color: gray;
+  color:white;
+  padding: 8px 15px;
+  margin: 10px 0;
+  border: none;
+  cursor: pointer;
+  width: 20%;
+  opacity: 0.9;
+  margin-left:120px;
+  font-size:30px;
+    border-radius: 100px;
+}
+
+.registerbtn:hover {
+  opacity: 1;
+}
+.background{
+background-image: url('reg.jpg');
+background-repeat: no-repeat;
+background-size:cover ;
+background-position :80% 50%;
+
+ }
+ 
+.container {
+  padding: 100px;
+  color:black;
+  opacity:1;
+  font-size:30px;
+  text-shadow: 1px 1px  white;
+  width:60%;
+  
+}
+
+/* Full-width input fields */
+input[type=text], input[type=password],input[type=email] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+  font-size:20px;
+}
+.one{
+background-image: url('bal21.jpg');
+padding-left:300px;
+padding-top:150px;
+width:100%;
+background-repeat:no-repeat;
+background-position:50% 50%;
+height:400px;
+color:black;
+font-size:50px;
+text-shadow: 2px 2px 2px white;
+
+}
+.two{
+background-image: url('ame.jpg');
+background-position:50% 50%;
+
+height:650px;
+color:white;
+font-size:40px;
+text-shadow: 2px 2px 2px black;}
+.three{
+background-image: url('int.jpg');
+background-position:50% 50%;
+padding-left:150px;
+height:600px;
+color:black;
+font-size:35px;
+text-shadow: 2px 2px 2px white;}
+
+ .form{
+width: 90%;
+margin:auto;
+padding-top: 40px;
+font-size:25px;
+color:black;
+	
+}
+
+
+input[type=text]:focus, input[type=password]:focus ,input[type=email]:focus 
+{
+  background-color: white;
+  outline: none;
+}
+
+/* Overwrite default styles of hr */
+.hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+
+/* Set a style for the submit button */
+.register {
+  background-color: Crimson;
+  color: white;
+  padding: 16px 20px;
+  margin: 5px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+  font-size:20px;
+}
+
+.register:hover {
+  opacity: 1;
+}
+
+
+/* Add a blue text color to links */
+a {
+  color: dodgerblue;
+}
+
+/* Set a grey background color and center the text of the "sign in" section */
+.signin {
+  background-color:  #f1f1f1;
+  text-align: center;
+  opacity:0.8;
+ 
+  height:50px;
+  
+  
+}	
+.terms{opacity:0.8;
+background-color:silver;}
+
+
+/*budget options styles*/
+.columns {
+  float:left;	
+  width: 33%;
+  padding: 12px;
+  position:relative;
+  
+}
+
+.price {
+  list-style-type: none;
+  border: 1px solid #eee;
+  margin: 0;
+  padding: 0;
+  
+}
+
+.price:hover {
+  box-shadow: 0 8px 10px 0
+}
+
+.price .header {
+  background-color: DarkRed;
+  color: white;
+  font-size: 30px;
+}
+
+.price li {
+  border-bottom: 1px solid #eee;
+  padding: 8px;
+  text-align: center;
+}
+ .grey {
+  background-color: #eee;
+  font-size:30px;
+  color:black;
+}
+.white{
+  background-color:SaddleBrown;
+  font-size: 30px;
+  color:black;
+}
+
+
+/*submit,reset button style*/
+input[type=submit],input[type=reset] {
+  background-color: black;
+  border: none;
+  color: gray;
+  padding: 5px;
+  text-decoration: none;
+  width:20%;
+  cursor: pointer;
+  font-size:25px;
+    border-radius: 10px;
+}
+.sub:hover {
+  opacity: 0.8;
+}
+.dropdown{
+width:200px;
+height:33px;
+}
+/*white box*/
+.bor{
+	height:90px;
+background-color:DarkRed;
+color:white;
+border-style: double;
+  border-width: thick;
+}
+
